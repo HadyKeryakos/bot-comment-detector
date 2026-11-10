@@ -1,0 +1,30 @@
+# Local Python environments and caches
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Local backups made while applying the GitHub preparation update
+*.before-github-*
+bot-comment-detector-github-prep.zip
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# data/, datasets/, and saved_models/ are intentionally retained for the
+# initial private sharing snapshot. They are not virtual-environment files.

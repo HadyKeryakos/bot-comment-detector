@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Preserve the recovered data and model bytes during Windows Git checkouts.
+data/** -text
+datasets/** -text
+*.pkl binary
+*.keras binary
+*.xlsx binary
